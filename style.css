@@ -3,3 +3,24 @@ body {
 	padding: 20px;
 	position: relative;
 }
+
+#sub-feed {
+	margin-top: 20px;
+}
+
+#sub-feed-item {
+	display: table-cell;
+	float: left;
+	margin: 40px;
+	width: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#sub-feed-item img {
+	display: block;
+	max-height: 150px;
+	max-width: 200px;
+	width: auto;
+	height: auto;
+}

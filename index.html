@@ -12,12 +12,14 @@
 	<script defer src="https://apis.google.com/js/api.js"
 	onload="this.onload=function(){};loadClient()"
 	onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
-	
+
 </head>
 <body>
 
 	<button id="authorize-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="handleAuthClick()">Authorize</button>
 	<button id="signout-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" onclick="handleSignoutClick()">Sign Out</button>
+
+	<div id="sub-feed"></div>
 
 </body>
 </html>
